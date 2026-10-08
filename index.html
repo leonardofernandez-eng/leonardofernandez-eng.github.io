@@ -10,9 +10,9 @@
   <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="dcbeb550-9b4f-48ed-b3c0-915e5ed23e54" data-blockingmode="auto" type="text/javascript"></script>
   <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e4513b09-409d-4c3a-be8b-fbdc7b5781e1" data-blockingmode="auto" type="text/javascript"></script>
    -->
-  <!-- CB PROD 
+  <!-- CB PROD -->
   <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2eb484e7-0e04-4128-a6e3-b0fcb6fbcd4a" data-blockingmode="auto" type="text/javascript"></script>
-  -->
+  
   <!-- UC Dev V2
   CCPA
   <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="lXf_bhKUpy" async data-sandbox="true"></script>
@@ -23,8 +23,8 @@
    <!-- UC Dev V3
   <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="lXf_bhKUpy" async data-sandbox="true"></script>
   <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="12XBaRwFcmhNVB" async data-sandbox="true"></script>
-  -->
   <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="QwYT1acqH5vJe5" async data-sandbox="true"></script>
+  -->
   
   <meta charset="UTF-8">
   <title>My Page</title>
@@ -36,9 +36,18 @@
     <p>This is the body content — edit me.</p>
   </main>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/5wSL43ur0B8?si=HDO77GdP0g38bD_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="container" id="video">
+    <h1>Youtube video</h1>
+    <p>Third party embed. Whether it is blocked before consent depends on the blocking mode set in the Cookiebot admin, since this page does not override it with data-blockingmode.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SCOM3LOlcu8?si=RyStfito2I6g2uQx" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>[12:03 PM]<div class="container" id="maps">
+    <h1>Google Maps</h1>
+    <p>Usercentrics office. Same as above, the blocking behaviour comes from the admin configuration.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.73392635754!2d-9.153208024523748!3d38.72391735692244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933005f7f7687%3A0xd3b21147262d3b0!2sUsercentrics!5e0!3m2!1sen!2spt!4v1764752558152!5m2!1sen!2spt" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps embed"></iframe>
+  </div>
   <footer>
     <p>Footer — © 2026 Your Name</p>
-    <div class="uc-privacy-policy"><p>Policy</p></div>
+    <div class="uc-privacy-policy"></div>
     <a onclick="window.Cookiebot.show()" href="#">Privacy settings</a>
   </footer>
 </body>
